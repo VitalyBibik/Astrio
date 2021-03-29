@@ -1,0 +1,59 @@
+
+.slider {
+    max-width: 80%;
+    position: relative;
+    max-height: 450px;
+    margin: auto;
+}
+
+.slider__image {
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+    box-shadow: 0 0 10px 9px grey;
+}
+
+.slider__prev, .slider__next {
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    padding: 7px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border:none;
+    border-radius: 5px;
+}
+
+.slider__next {
+    right: 3%;
+    top: 84%;
+
+}
+.slider__prev {
+    left: 3%;
+    top: 84%;
+
+}
+
+
+
+
+/* Анимация слайдов */
+
+/*.slider .item {*/
+
+/*    animation-name: slider-anim;*/
+/*    animation-duration: 1.5s;*/
+/*}*/
+
+
+/*@keyframes slider-anim {*/
+/*    from {*/
+/*        opacity: .5*/
+/*    }*/
+/*    to {*/
+/*        opacity: 1*/
+/*    }*/
+/*}*/
