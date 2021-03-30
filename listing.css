@@ -35,7 +35,7 @@
     color:rgba(234, 134, 0, 1)
 }
 .card:hover .card__text {
-    display: inline;
+    display: block;
     z-index: 3;
 
 }
