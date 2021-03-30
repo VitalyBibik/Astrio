@@ -92,3 +92,11 @@ hr {
     border: none;
     background-color:#383838;
 }
+
+
+/* 320-442 */
+@media screen  and (min-width: 320px) and (max-width: 442px){
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
