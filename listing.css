@@ -5,10 +5,10 @@
     position: relative;
 }
 .card:hover {
-    box-shadow: 0 0 2px 4px rgba(234, 134, 0, 1);
     transform: scale(1.02);
     z-index: 2;
     transition-duration: .3s;
+    box-shadow: 0 0 2px 4px rgba(234, 134, 0, 1);
 }
 .card:hover .card__button {
     background-color:rgba(234, 134, 0, 1) ;
@@ -19,7 +19,6 @@
 .card:hover .card__text {
     display: block;
     z-index: 3;
-    background-color: white;
 }
 
 .card__title {
