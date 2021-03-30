@@ -1,4 +1,20 @@
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 143px);
+    max-width: 439px;
+    border: 1px solid black;
+    gap:5px;
+}
+.center__grid {
+    margin: 100px auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+}
 
 .card {
     padding: 5px;
@@ -9,6 +25,8 @@
     z-index: 2;
     transition-duration: .3s;
     box-shadow: 0 0 2px 4px rgba(234, 134, 0, 1);
+    position: sticky;
+    width: 139px;
 }
 .card:hover .card__button {
     background-color:rgba(234, 134, 0, 1) ;
@@ -17,8 +35,9 @@
     color:rgba(234, 134, 0, 1)
 }
 .card:hover .card__text {
-    display: block;
+    display: inline;
     z-index: 3;
+
 }
 
 .card__title {
@@ -28,14 +47,12 @@
     display: none;
 }
 
-
-
 .card__stars {
     display: block;
     margin-left: 5px;
     margin-right: 5px;
 }
-.test {
+.row-stars {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,22 +84,6 @@ hr {
     font-size:13px;
     margin: 0;
 }
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 143px);
-    max-width: 439px;
-    border: 1px solid black;
-    gap:5px;
-}
-.center__grid {
-    margin: 100px auto;
-}
-
-.row {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    align-items: center;
-}
 
 .button {
     height: 35px;
@@ -92,7 +93,6 @@ hr {
     border: none;
     background-color:#383838;
 }
-
 
 /* 320-442 */
 @media screen  and (min-width: 320px) and (max-width: 442px){
