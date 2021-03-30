@@ -46,9 +46,6 @@ top: 250px;
 
 }
 
-.card__title {
-height: 46px;
-}
 .card__text {
 display: none;
 }
@@ -71,11 +68,10 @@ opacity: .4;
 }
 
 .card__title {
+height: 48px;
 font-size: 13px;
-line-height: 16px;
 color: #000000;
 font-family: "Arial", serif;
-margin: 5px 5px 10px;
 }
 .card__image {
 width: 100%;
