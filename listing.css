@@ -20,78 +20,84 @@
     padding: 5px;
     position: relative;
 }
-.card:hover {
+.card:hover  {
     transform: scale(1.02);
     z-index: 2;
-    transition-duration: .3s;
-    box-shadow: 0 0 2px 4px rgba(234, 134, 0, 1);
-    position: sticky;
-    width: 139px;
+    border-left: 4px solid rgb(234 134 0);
+    border-right: 4px solid rgb(234 134 0);
+    border-top: 4px solid rgb(234 134 0);
 }
 .card:hover .card__button {
-    background-color:rgba(234, 134, 0, 1) ;
+background-color:rgba(234, 134, 0, 1) ;
 }
 .card:hover .card__stars {
-    color:rgba(234, 134, 0, 1)
+color:rgba(234, 134, 0, 1)
 }
 .card:hover .card__text {
-    display: block;
-    z-index: 3;
+position: absolute;
+left: -4px;
+display: block;
+background: white;
+border-left: 4px solid rgb(234 134 0);
+border-right: 4px solid rgb(234 134 0);
+border-bottom: 4px solid rgb(234 134 0);
+width: 135px;
+top: 250px;
 
 }
 
 .card__title {
-    height: 46px;
+height: 46px;
 }
 .card__text {
-    display: none;
+display: none;
 }
 
 .card__stars {
-    display: block;
-    margin-left: 5px;
-    margin-right: 5px;
+display: block;
+margin-left: 5px;
+margin-right: 5px;
 }
 .row-stars {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
 }
 hr {
-    margin: 0;
-    width: 90%;
-    opacity: .4;
+margin: 0;
+width: 90%;
+opacity: .4;
 }
 
 .card__title {
-    font-size: 13px;
-    line-height: 16px;
-    color: #000000;
-    font-family: "Arial", serif;
-    margin: 5px 5px 10px;
+font-size: 13px;
+line-height: 16px;
+color: #000000;
+font-family: "Arial", serif;
+margin: 5px 5px 10px;
 }
 .card__image {
-    width: 100%;
+width: 100%;
 }
 .card__special-text {
-    text-transform: capitalize;
-    font-size: 18px;
-    line-height: 16px;
-    font-weight: bold;
+text-transform: capitalize;
+font-size: 18px;
+line-height: 16px;
+font-weight: bold;
 }
 .card__price {
-    font-size:13px;
-    margin: 0;
+font-size:13px;
+margin: 0;
 }
 
 .button {
-    height: 35px;
-    width: 80px;
-    font-size: 13px;
-    color:white;
-    border: none;
-    background-color:#383838;
+height: 35px;
+width: 80px;
+font-size: 13px;
+color:white;
+border: none;
+background-color:#383838;
 }
 
 /* 320-442 */
